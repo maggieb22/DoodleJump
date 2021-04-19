@@ -1,0 +1,20 @@
+DoodleJump README
+
+Overview:
+	For this project I made a paneorganizer class, a game class, a doodle class, a platform class, and a constants
+	class. My game class was a subclass of paneorganizer and doodle and platform were subclasses of game. My paneorganizer
+	handled where things were positioned on the screen, the game handler handled the logic, and the doodle and platform created the doodle and platform
+	and then had a bunch of methods that I was able to use in the game class. I specified most of these specifics with my comments in each class.
+
+Design Choices:
+	Ok I made a lot of design choices haha.
+	So first of all, each time the game starts, the doodle will have a new different color for both the head and the body.
+	Every platform will also have a random color. 
+	I imported a background image which is the original doodle jump image. 
+	My game keeps track of the score based on when the doodle bounces on a platform.
+	My shape is a composite image since it is a circle and a rectangle.
+	That is all :P
+	
+
+Known Bugs:
+	No known bugs :)
